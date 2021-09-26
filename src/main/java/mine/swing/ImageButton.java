@@ -12,13 +12,14 @@
 
 package mine.swing;
 
-import java.awt.*;
+import java.awt.Dimension;
+import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
-import javax.swing.*;
+import javax.swing.JPanel;
 
 public class ImageButton extends JPanel implements MouseListener {
 

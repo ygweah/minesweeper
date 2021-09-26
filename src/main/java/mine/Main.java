@@ -1,6 +1,6 @@
 package mine;
 
-import javax.swing.*;
+import javax.swing.UIManager;
 
 public class Main {
 

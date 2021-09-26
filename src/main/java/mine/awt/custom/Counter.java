@@ -11,6 +11,8 @@
 
 package mine.awt.custom;
 
+//import java.awt.*;
+
 import java.awt.*;
 
 public class Counter extends Canvas {

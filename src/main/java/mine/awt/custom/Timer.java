@@ -9,7 +9,6 @@
 
 package mine.awt.custom;
 
-
 public class Timer extends Counter implements Runnable {
 
   //Private Instance Variable

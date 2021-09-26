@@ -1,6 +1,7 @@
 package mine.swing;
 
-import javax.swing.*;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
 
 
 public class ImageSet {

@@ -13,7 +13,10 @@
 
 package mine.swing;
 
-import java.awt.*;
+import java.awt.Component;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Point;
 
 public final class Grid {
   //Protected Static Variable

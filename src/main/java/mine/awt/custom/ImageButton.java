@@ -12,7 +12,11 @@
 
 package mine.awt.custom;
 
-import java.awt.*;
+
+import java.awt.Canvas;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Toolkit;
 import mine.awt.ImageSet;
 
 public class ImageButton extends Canvas {

@@ -13,7 +13,9 @@
 
 package mine.awt;
 
-import java.awt.*;
+import java.awt.Component;
+import java.awt.Dimension;
+import java.awt.Graphics;
 
 public final class Grid {
   //Protected Static Variable

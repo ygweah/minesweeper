@@ -9,12 +9,14 @@
 
 package mine.swing;
 
-import java.awt.*;
+import java.awt.Dimension;
+import java.awt.Graphics;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
 import java.util.Random;
-import javax.swing.*;
+import javax.swing.BorderFactory;
+import javax.swing.JPanel;
 
 public final class GridArray extends JPanel implements MouseListener {
 

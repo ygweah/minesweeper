@@ -1,6 +1,8 @@
 package mine.swing;
 
-public class GameEvent extends java.util.EventObject {
+import java.util.EventObject;
+
+public class GameEvent extends EventObject {
   public static final int GAME_START = 0;
   public static final int GAME_WIN = 1;
   public static final int GAME_LOSE = 2;

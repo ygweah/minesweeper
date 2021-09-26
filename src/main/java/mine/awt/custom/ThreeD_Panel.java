@@ -9,7 +9,13 @@
 
 package mine.awt.custom;
 
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Insets;
+import java.awt.Panel;
+import java.awt.Point;
 
 public class ThreeD_Panel extends Panel {
 

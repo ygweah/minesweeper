@@ -11,7 +11,6 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import mine.awt.custom.ImageButton;
 
-
 public class AnimatedButton extends ImageButton {
 
   //Private Instance Variable

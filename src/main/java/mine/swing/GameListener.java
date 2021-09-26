@@ -1,6 +1,8 @@
 package mine.swing;
 
-public interface GameListener extends java.util.EventListener {
+import java.util.EventListener;
+
+public interface GameListener extends EventListener {
   void gameStarted(GameEvent e);
 
   void gameWon(GameEvent e);

@@ -8,7 +8,9 @@
 
 package mine.swing;
 
-import java.awt.*;
+import java.awt.Component;
+import java.awt.Dimension;
+import java.awt.Graphics;
 
 public class Digit {
   //Public Static Variable
