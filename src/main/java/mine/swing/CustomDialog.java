@@ -8,12 +8,10 @@
 package mine.swing;
 
 import java.awt.BorderLayout;
-import java.awt.Button;
 import java.awt.GridLayout;
 import java.awt.Label;
 import java.awt.Panel;
 import java.awt.Point;
-import java.awt.TextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
@@ -57,16 +55,16 @@ public class CustomDialog extends JDialog {
     pA.add(label_height);
     pA.add(label_mine);
 
-    text_width = new TextField(String.valueOf(minesweeper.getCurrent().width));
-    text_height = new TextField(String.valueOf(minesweeper.getCurrent().height));
-    text_mine = new TextField(String.valueOf(minesweeper.getCurrent().mines));
+    text_width = new JTextField(String.valueOf(minesweeper.getCurrent().width));
+    text_height = new JTextField(String.valueOf(minesweeper.getCurrent().height));
+    text_mine = new JTextField(String.valueOf(minesweeper.getCurrent().mines));
     Panel pB = new Panel();
     pB.setLayout(new GridLayout(3, 1, 10, 10));
     pB.add(text_width);
     pB.add(text_height);
     pB.add(text_mine);
 
-    ok = new Button(" OK ");
+    ok = new JButton(" OK ");
     ok.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         inputGameRecord();
@@ -121,9 +119,9 @@ public class CustomDialog extends JDialog {
       int height = Math.min(Integer.parseInt(text_height.getText()), MAX_HEIGHT);
       int mines = Integer.parseInt(text_mine.getText());
       GameDimension g = new GameDimension("Custom", width, height, mines);
-      minesweeper.getBestRecord().current = new GameRecord("NONE", GameRecord.MAX_TIME, g);
+//      minesweeper.getBestRecord().current = new GameRecord("NONE", GameRecord.MAX_TIME, g);
       exit();
-      minesweeper.game(minesweeper.getCurrent());        //start a new game
+//      minesweeper.game(minesweeper.getCurrent());        //start a new game
     } catch (NumberFormatException e) {
       exit();
     }
@@ -134,7 +132,7 @@ public class CustomDialog extends JDialog {
    */
   public void exit() {
     minesweeper.requestFocus();
-    minesweeper.selectCurrent();
+//    minesweeper.selectCurrent();
     setVisible(false);
     dispose();
   }

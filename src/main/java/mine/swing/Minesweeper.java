@@ -355,4 +355,8 @@ public class Minesweeper extends JFrame implements GameListener {
     contentPane.add(boardPanel);
   }
 
+  public GameDimension getCurrent() {
+
+    return customGame;
+  }
 }

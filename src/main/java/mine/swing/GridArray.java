@@ -18,7 +18,7 @@ import java.util.Random;
 import javax.swing.BorderFactory;
 import javax.swing.JPanel;
 
-public final class GridArray extends JPanel implements MouseListener {
+public class GridArray extends JPanel implements MouseListener {
 
   //Private Instance Variable
   private Grid[][] grid;                              //array holding Grid
